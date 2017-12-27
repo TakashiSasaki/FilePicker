@@ -9,7 +9,7 @@
   <body>
     <textarea></textarea>
     <div>
-    <?!=FilePicker.scriptElement('232178599049-c10bo83mnhiv8kck8bau2v7etvbffpo8.apps.googleusercontent.com');?>
+    <?!=FilePicker.scriptElement(PropertiesService.getScriptProperties().getProperty("clientId"));?>
     <?!=FilePicker.DOCS('callback');?>
     <?!=FilePicker.DOCS_IMAGES('callback');?>
     <?!=FilePicker.DOCS_IMAGES_AND_VIDEOS('callback');?>
